@@ -19,12 +19,13 @@ public class EmailNotification
 }
 ```
 <br>
+
 Do some code refactoring using an **Interface** and add one more Notification class.
 
 ---
 ### Second 
 ## Hmmmmmmm....
-![alt](images\confusion.png)
+![alt](images/confusion.png)
 
 Now I am confused !!
 
