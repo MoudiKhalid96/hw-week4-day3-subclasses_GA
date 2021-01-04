@@ -6,13 +6,13 @@ While working on a Java project, I had written a couple of Notification Classes,
 The pattern I saw repeated in my Java classes was that they all had similar method name and different implementation, something like this:
 
 ```java
-public class SMSNotification
+ class SMSNotification
 {
     public void notifyUser() { // implementation ... }
     
 }
 
-public class EmailNotification 
+ class EmailNotification 
 {
     public void notifyUser() { // implementation ... }
     
@@ -20,7 +20,7 @@ public class EmailNotification
 ```
 <br>
 
-Do some code refactoring using an **Interface** and add one more Notification class.
+Do some code refactoring using an **Interface**  in ` src/com.ga.sub/Main.java ` and add one more Notification class.
 
 ---
 ### Second 
