@@ -1,1 +1,30 @@
-sdfsd
+Question: When should I use an abstract class or interface?
+
+Answer: This might be a litter bit confused by saying "they all do the same work, I can use this instead of this !". The fact is that you can't, the real value of each becomes more and more obvious when to use each one of them when dealing with networks, GUI, databases, and polymorphism.
+
+
+
+Difference between abstract class and interface:
+
+--------------------------------------------------------------------------------------------------
+							ABSTARCT		|		INTERFACE
+==================================================================================================
+not always full abstract class				| always full abstract class
+--------------------------------------------------------------------------------------------------
+can have abstract and non-abstract methods	| Full abstract methods
+--------------------------------------------------------------------------------------------------
+has it's own properties 					| all the properties are in "public static final" way
+--------------------------------------------------------------------------------------------------
+has it's own separate methods and it might 	| all method are abstract, so they must be implemented
+be not implemented in subclass    			| 
+--------------------------------------------------------------------------------------------------
+
+
+
+COMMON THING: both methods that are abstract in abstract class and methods in interface must be implemented.  
+
+
+
+* Note about Interface:
+multiple inheritance is not supported in java, so the interface gives the ability to do it by implementing more than one interface
+
